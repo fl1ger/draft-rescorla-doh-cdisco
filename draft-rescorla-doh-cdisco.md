@@ -124,7 +124,7 @@ the network takes the following steps:
 
 3. If the query succeeds, then look up the CNAME record value in the list
    of preconfigured resolvers. If an exact match is found, then use the
-   resolver address for the matching preconfigured resolver.
+   DoH resolver URI for the matching preconfigured resolver.
    Otherwise fall back to the ordinary DoH resolver selection logic.
 
 3. If the query fails, then no associated resolver is present;
